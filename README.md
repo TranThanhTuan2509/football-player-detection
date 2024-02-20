@@ -11,7 +11,7 @@
 
 - These examples above had still some incorrect detections such as: ball, player.... Because I trained with only 2 epochs.
 
-# Requirement
+# Requirementss
 - Numpy
 - Matplotlib
 - Pandas
@@ -72,7 +72,7 @@
 - I found random video on google to testing my model accuracy
 - The weakness of yolo models is still the difficulty of identifying small objects, Although yolo models are very fast in detecting
 
-# Experiemnts
+# Experiments
 - The training/test loss curves for each experiment are shown below:
 ![Screenshot from 2024-02-19 23-01-26](https://github.com/TranThanhTuan2509/football-player-detection/assets/119112296/948cd162-d07c-4f2d-8b5a-c864a7bf5542)
 
