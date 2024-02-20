@@ -1,13 +1,15 @@
 # [PYTHON] FOOTBALL - PLAYER - DETECTION
 
 # Introduction
-![football2(1)](https://github.com/TranThanhTuan2509/football-player-detection/assets/119112296/829cd9cd-bb8d-4e58-8068-6f6b56454eb0)
+![football2](https://github.com/TranThanhTuan2509/football-player-detection/assets/119112296/ec43b1e2-99b4-4488-86ce-1cd157135ea4)
+
 - Here is an example
 
-![football](https://github.com/TranThanhTuan2509/football-player-detection/assets/119112296/72dab2bc-14a4-4ec0-b339-adf19d895e87)
+![football](https://github.com/TranThanhTuan2509/football-player-detection/assets/119112296/6597374e-b112-46ea-8edc-4eea27afac3d)
+
 - And here is another example
 
-- These examples above had some incorrect detections because I trained with only 2 epochs.
+- These examples above had stillstill some incorrect detections such as: ball, player.... Because I trained with only 2 epochs.
 
 # Requirement
 - Numpy
@@ -28,23 +30,23 @@
 
 # Training
 - This is how my data-changing works:
--Extracting processing use only your original data is video type
+- Extracting processing use only your original data is video type
 
 - /path/to/dataset -> extract each frame -> data_extracting_folder
 
       data_extracting_folder
-          |
-          |- Train
-          | ├── annotations
-          | │   ├── image1.txt
-          | │   ├── image2.txt
-          | │   └── ...
-          | ├── images
-          | │   ├── image1.jpg
-          | │   ├── image2.jpg
-          | │   └── ...
-          |  
-          |- Test
+          │
+          ├── Train
+          │ ├── annotations
+          │ │   ├── image1.txt
+          │ │   ├── image2.txt
+          │ │   └── ...
+          │ ├── images
+          │ │   ├── image1.jpg
+          │ │   ├── image2.jpg
+          │ │   └── ...
+          │  
+          ├── Validation
             ├── annotations
             │   ├── image1.txt
             │   ├── image2.txt
@@ -60,7 +62,8 @@
 - Here is the YOLOv5 repository on the Ultralytics website, which guides us on how to run their model in the field of object detection: https://github.com/ultralytics/yolov5
 - YOLOv5 supports 10 models, but I could only use YOLOv5n with my sufficiently large batch size, expecting it to be 8 or even 16. I trained the model with a 24GB GTX 3060 GPU.
 
-![image](https://github.com/TranThanhTuan2509/football-player-detection/assets/119112296/9b99c47e-34c9-4e20-a6ef-462e1e8ff5f5)
+![Screenshot from 2024-02-20 16-27-31](https://github.com/TranThanhTuan2509/football-player-detection/assets/119112296/aac9d033-7e9b-42fb-9dd6-f9336f92a1c2)
+
 
 # Validation
 - Same idea with training processing i extracted each frame from validation video but the difference is video quantity. In validation i used only 1 video
@@ -71,14 +74,15 @@
 
 # Experiemnts
 - The training/test loss curves for each experiment are shown below:
-![Screenshot from 2024-02-19 23-01-26](https://github.com/TranThanhTuan2509/football-player-detection/assets/119112296/838875d8-3d10-4127-8b35-9f3d8198073b)
+![Screenshot from 2024-02-19 23-01-26](https://github.com/TranThanhTuan2509/football-player-detection/assets/119112296/948cd162-d07c-4f2d-8b5a-c864a7bf5542)
 
 - Statistics for mAP:
-![Screenshot from 2024-02-19 23-01-55](https://github.com/TranThanhTuan2509/football-player-detection/assets/119112296/16bea47c-7892-4718-80b1-ae6ef31c7b3e)
+![Screenshot from 2024-02-19 23-01-55](https://github.com/TranThanhTuan2509/football-player-detection/assets/119112296/534366e8-c1c5-4b90-87d5-2d96551edb35)
 
 # Results
 - Some output predictions for experiments for each dataset are shown below:
-- ![image](https://github.com/TranThanhTuan2509/football-player-detection/assets/119112296/214181d7-9e8a-4565-b3bc-56a6f8061fae)
+![image](https://github.com/TranThanhTuan2509/football-player-detection/assets/119112296/f0209830-01bd-4316-b5ee-d50baec728c8)
+
 
       COPYRIGHT: PIXELLOT AIR
 
