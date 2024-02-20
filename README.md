@@ -9,7 +9,7 @@
 
 - And here is another example
 
-- These examples above had stillstill some incorrect detections such as: ball, player.... Because I trained with only 2 epochs.
+- These examples above had still some incorrect detections such as: ball, player.... Because I trained with only 2 epochs.
 
 # Requirement
 - Numpy
