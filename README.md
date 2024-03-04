@@ -1,15 +1,16 @@
 # [PYTHON] FOOTBALL - PLAYER - DETECTION
 
 # Introduction
-![football2](https://github.com/TranThanhTuan2509/football-player-detection/assets/119112296/ec43b1e2-99b4-4488-86ce-1cd157135ea4)
+![pexels-tima-miroshnichenko-6079623online-video-cutter com-ezgif com-video-to-gif-converter](https://github.com/TranThanhTuan2509/football-player-detection/assets/119112296/17a54a71-491b-4ad2-b0d7-c49bd9ebe9b8)
+
 
 - Here is an example
 
-![football](https://github.com/TranThanhTuan2509/football-player-detection/assets/119112296/6597374e-b112-46ea-8edc-4eea27afac3d)
+![football3_cut_video-ezgif com-video-to-gif-converter](https://github.com/TranThanhTuan2509/football-player-detection/assets/119112296/68086542-3ea1-47e3-9dcc-2123a20fd16c)
 
 - And here is another example
 
-- These examples above had still some incorrect detections such as: ball, player.... Because I trained with only 2 epochs.
+- These examples above had still some incorrect detections such as: player...These are the best result i got after almost trained 100 epochs
 
 # Requirementss
 - Numpy
@@ -73,6 +74,7 @@
 - The weakness of yolo models is still the difficulty of identifying small objects, Although yolo models are very fast in detecting
 
 # Experiments
+- These tensorboard results below represented for my first 2 epochs with yolov5n model
 - The training/test loss curves for each experiment are shown below:
 ![Screenshot from 2024-02-19 23-01-26](https://github.com/TranThanhTuan2509/football-player-detection/assets/119112296/948cd162-d07c-4f2d-8b5a-c864a7bf5542)
 
