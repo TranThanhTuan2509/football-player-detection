@@ -10,7 +10,7 @@
 
 - And here is another example
 
-- These examples above had still some incorrect detections such as: player...These are the best result i got after almost trained 100 epochs
+- These examples above had still some incorrect detections such as: player...These are the best results I got after almost training 100 epochs
 
 # Requirementss
 - Numpy
@@ -18,10 +18,10 @@
 - Pandas
 - Pytorch
 - Tensorboard
-- The other libs you could check in requirements file from yolov5 of ultralytics
+- The other libs you could check in the requirements file from yolov5 of Ultralytics
 
-- To download all of yolov5 libs following to:
-- Access to yolov5 repository and make sure that you installed git and registed github account
+- To download all of the yolov5 libs following:
+- Access to yolov5 repository and make sure that you installed git and registered GitHub account
   
       git clone https://github.com/ultralytics/yolov5
 
@@ -31,7 +31,7 @@
 
 # Training
 - This is how my data-changing works:
-- Extracting processing use only your original data is video type
+- Extracting processing uses only your original data in video type
 
 - /path/to/dataset -> extract each frame -> data_extracting_folder
 
@@ -67,14 +67,14 @@
 
 
 # Validation
-- Same idea with training processing i extracted each frame from validation video but the difference is video quantity. In validation i used only 1 video
+- Same idea with training processing i extracted each frame from the validation video but the difference is video quantity. In validation, i used only 1 video
 
 # Inference 
-- I found random video on google to testing my model accuracy
-- The weakness of yolo models is still the difficulty of identifying small objects, Although yolo models are very fast in detecting
+- I found a random video on google to test my model accuracy
+- The weakness of Yolo models is still the difficulty of identifying small objects, Although yolo models are very fast in detecting
 
 # Experiments
-- These tensorboard results below represented for my first 2 epochs with yolov5n model
+- These tensorboard results below represented my first 2 epochs with yolov5n model
 - The training/test loss curves for each experiment are shown below:
 ![Screenshot from 2024-02-19 23-01-26](https://github.com/TranThanhTuan2509/football-player-detection/assets/119112296/948cd162-d07c-4f2d-8b5a-c864a7bf5542)
 
